@@ -1,0 +1,178 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\forko\\source\\repos\\ComPortReader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|c:\\users\\forko\\source\\repos\\comportreader\\comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|C:\\Users\\forko\\source\\repos\\ComPortReader\\comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|C:\\Users\\forko\\source\\repos\\ComPortReader\\comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|c:\\users\\forko\\source\\repos\\comportreader\\comportreader\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|c:\\users\\forko\\source\\repos\\comportreader\\comportreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|c:\\users\\forko\\source\\repos\\comportreader\\comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|c:\\users\\forko\\source\\repos\\comportreader\\comportreader\\comportreader.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\comportreader.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|c:\\users\\forko\\source\\repos\\comportreader\\comportreader\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|c:\\users\\forko\\source\\repos\\comportreader\\comportreader\\configform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\configform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|c:\\users\\forko\\source\\repos\\comportreader\\comportreader\\comportreader.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\comportreader.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\MainForm.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\MainForm.cs",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\MainForm.cs*",
+              "RelativeToolTip": "ComPortReader\\MainForm.cs*",
+              "ViewState": "AQIAADMCAAAAAAAAAAAAABMCAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:52:25.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\MainForm.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\MainForm.cs",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\MainForm.cs [Design]*",
+              "RelativeToolTip": "ComPortReader\\MainForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:49:58.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ConfigForm.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\ConfigForm.cs",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ConfigForm.cs [Design]",
+              "RelativeToolTip": "ComPortReader\\ConfigForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:58:59.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConfigForm.cs",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ConfigForm.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\ConfigForm.cs",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ConfigForm.cs",
+              "RelativeToolTip": "ComPortReader\\ConfigForm.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAYwDsAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:58:13.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComPortReader.csproj",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ComPortReader.csproj",
+              "RelativeDocumentMoniker": "ComPortReader\\ComPortReader.csproj",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ComPortReader.csproj",
+              "RelativeToolTip": "ComPortReader\\ComPortReader.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T12:57:24.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\Program.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\Program.cs",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\Program.cs",
+              "RelativeToolTip": "ComPortReader\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAywC8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:03:14.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\MainForm.Designer.cs",
+              "RelativeToolTip": "ComPortReader\\MainForm.Designer.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAApwIoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:54:18.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\App.config",
+              "RelativeDocumentMoniker": "ComPortReader\\App.config",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\App.config",
+              "RelativeToolTip": "ComPortReader\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-26T06:44:56.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ComPortReader",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ComPortReader.csproj",
+              "RelativeDocumentMoniker": "ComPortReader\\ComPortReader.csproj",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ComPortReader.csproj",
+              "RelativeToolTip": "ComPortReader\\ComPortReader.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-26T06:44:05.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConfigForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ConfigForm.Designer.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\ConfigForm.Designer.cs",
+              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ConfigForm.Designer.cs",
+              "RelativeToolTip": "ComPortReader\\ConfigForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T08:54:15.908Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
