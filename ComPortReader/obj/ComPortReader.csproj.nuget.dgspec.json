@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ComPortReader.csproj": {}
+    "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ComPortReader.csproj": {
+    "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ComPortReader.csproj",
+        "projectUniqueName": "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj",
         "projectName": "ComPortReader",
-        "projectPath": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ComPortReader.csproj",
+        "projectPath": "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj",
         "packagesPath": "C:\\Users\\forko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\obj\\",
+        "outputPath": "D:\\02.Git\\thickness_software\\ComPortReader\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\forko\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z1LBGc8dXXM=",
+  "dgSpecHash": "CHaiiUtZT3c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ComPortReader.csproj",
+  "projectFilePath": "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\forko\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\forko\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0.nupkg.sha512",

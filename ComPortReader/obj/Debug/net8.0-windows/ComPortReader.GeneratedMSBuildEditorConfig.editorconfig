@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ComPortReader
-build_property.ProjectDir = C:\Users\forko\source\repos\ComPortReader\ComPortReader\
+build_property.ProjectDir = D:\02.Git\thickness_software\ComPortReader\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

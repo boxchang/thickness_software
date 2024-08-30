@@ -25,6 +25,11 @@ namespace ComPortReader
         private string palm = "";
         private string finger = "";
         private string fingerTip = "";
+        private string rollLower = "";
+        private string cuffLower = "";
+        private string palmLower = "";
+        private string fingerLower = "";
+        private string fingerTipLower = "";
         private string runCard = "";
         private string runCardApiUrl;
         private string returnMESApiUrl;
@@ -38,6 +43,7 @@ namespace ComPortReader
         private delegate void AddRowAndScrollDelegate(string runCard, string roll, string cuff, string palm, string finger, string fingerTip);
         private StringBuilder receivedDataBuffer = new StringBuilder();
         private const int FixedMessageLength = 12;
+        private static string logDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logs");
 
         private void AddRowAndScroll(string runCard, string roll, string cuff, string palm, string finger, string fingerTip)
         {
@@ -50,6 +56,12 @@ namespace ComPortReader
             {
                 // Add a new row to the DataGridView
                 int rowIndex = dataGridView1.Rows.Add(runCard, roll, cuff, palm, finger, fingerTip);
+
+                dataGridView1.Rows[rowIndex].Cells["RollLower"].Value = rollLower;
+                dataGridView1.Rows[rowIndex].Cells["CuffLower"].Value = cuffLower;
+                dataGridView1.Rows[rowIndex].Cells["PalmLower"].Value = palmLower;
+                dataGridView1.Rows[rowIndex].Cells["FingerLower"].Value = fingerLower;
+                dataGridView1.Rows[rowIndex].Cells["FingerTipLower"].Value = fingerTipLower;
 
                 // Scroll to the newly added row
                 dataGridView1.FirstDisplayedScrollingRowIndex = rowIndex;
@@ -138,6 +150,8 @@ namespace ComPortReader
             InitializeDataGridView();
             LoadConfig();
 
+            dataGridView1.CellValueChanged += DataGridView1_CellValueChanged;
+
             // 绑定 FormClosing 事件处理程序
             this.FormClosing += new FormClosingEventHandler(MainForm_FormClosing);
 
@@ -149,6 +163,47 @@ namespace ComPortReader
             }
 
         }
+
+        private void DataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            // Get the row being edited
+            DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
+            UpdateRowColors(row); // Call a function to update colors
+        }
+
+        private void UpdateRowColors(DataGridViewRow row)
+        {
+            if (float.TryParse(row.Cells["Roll"].Value?.ToString(), out float rollValue) &&
+                float.TryParse(row.Cells["RollLower"].Value?.ToString(), out float rollLowerValue))
+            {
+                row.Cells["Roll"].Style.BackColor = rollValue < rollLowerValue ? Color.Red : Color.White;
+            }
+
+            if (float.TryParse(row.Cells["Cuff"].Value?.ToString(), out float cuffValue) &&
+                float.TryParse(row.Cells["CuffLower"].Value?.ToString(), out float cuffLowerValue))
+            {
+                row.Cells["Cuff"].Style.BackColor = cuffValue < cuffLowerValue ? Color.Red : Color.White;
+            }
+
+            if (float.TryParse(row.Cells["Palm"].Value?.ToString(), out float palmValue) &&
+                float.TryParse(row.Cells["PalmLower"].Value?.ToString(), out float palmLowerValue))
+            {
+                row.Cells["Palm"].Style.BackColor = palmValue < palmLowerValue ? Color.Red : Color.White;
+            }
+
+            if (float.TryParse(row.Cells["Finger"].Value?.ToString(), out float fingerValue) &&
+                float.TryParse(row.Cells["FingerLower"].Value?.ToString(), out float fingerLowerValue))
+            {
+                row.Cells["Finger"].Style.BackColor = fingerValue < fingerLowerValue ? Color.Red : Color.White;
+            }
+
+            if (float.TryParse(row.Cells["FingerTip"].Value?.ToString(), out float fingerTipValue) &&
+                float.TryParse(row.Cells["FingerTipLower"].Value?.ToString(), out float fingerTipLowerValue))
+            {
+                row.Cells["FingerTip"].Style.BackColor = fingerTipValue < fingerTipLowerValue ? Color.Red : Color.White;
+            }
+        }
+
 
         private async void txtRunCard_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -169,21 +224,29 @@ namespace ComPortReader
 
                             RunCardInfoApiResponse result = await CallRunCardInfoApiAsync(apiUrl);
 
-                            ipqcStd = result.Ipqc_std;
-
                             //MessageBox.Show("API 返回结果: " + result);
                             if (result == null)
                             {
-                                message("API máy chủ không phản hồi. API Server not response.");
+                                string msg = "API máy chủ không phản hồi. API Server not response.";
+                                message(msg);
+                                LogMessage(msg);
                             }
                             else if (result.Status != "OK")
                             {
                                 txtRunCard.Text = "";
                                 message(result.Message);
+                                LogMessage(result.Message);
                             }
                             else
                             {
+                                ipqcStd = result.Ipqc_std;
+                                rollLower = ipqcStd.LowerRoll;
+                                cuffLower = ipqcStd.LowerCuff;
+                                palmLower = ipqcStd.LowerPalm;
+                                fingerLower = ipqcStd.LowerFinger;
+                                fingerTipLower = ipqcStd.LowerFingerTip;
                                 message(result.Message);
+                                LogMessage(result.Message);
                                 txtRoll.Focus();
                             }
                         }
@@ -256,7 +319,7 @@ namespace ComPortReader
                     }
                     else
                     {
-                        MessageBox.Show($"请求失败，状态码: {response.StatusCode}");
+                        // MessageBox.Show($"请求失败，状态码: {response.StatusCode}");
                         return null;
                     }
                 }
@@ -307,6 +370,21 @@ namespace ComPortReader
             dataGridView1.Columns["Finger"].Width = 150;
             dataGridView1.Columns["FingerTip"].Width = 150;
 
+            // Assuming your DataGridView is named dataGridView1
+            dataGridView1.Columns.Add("RollLower", "Roll Lower");
+            dataGridView1.Columns["RollLower"].Visible = false;
+
+            dataGridView1.Columns.Add("CuffLower", "Cuff Lower");
+            dataGridView1.Columns["CuffLower"].Visible = false;
+
+            dataGridView1.Columns.Add("PalmLower", "Palm Lower");
+            dataGridView1.Columns["PalmLower"].Visible = false;
+
+            dataGridView1.Columns.Add("FingerLower", "Finger Lower");
+            dataGridView1.Columns["FingerLower"].Visible = false;
+
+            dataGridView1.Columns.Add("FingerTipLower", "FingerTip Lower");
+            dataGridView1.Columns["FingerTipLower"].Visible = false;
         }
 
         // 将字符串格式化为指定的小数位数
@@ -649,6 +727,7 @@ namespace ComPortReader
                 if (response != null)
                 {
                     Invoke_message(response.message);
+                    LogMessage(response.message);
                 }
 
                 // 插入数据到 DataGridView 中
@@ -664,7 +743,11 @@ namespace ComPortReader
                 finger = "";
                 fingerTip = "";
                 ipqcStd = null;
-
+                Invoke_TextBox_Color(txtRoll, Color.Black);
+                Invoke_TextBox_Color(txtCuff, Color.Black);
+                Invoke_TextBox_Color(txtPalm, Color.Black);
+                Invoke_TextBox_Color(txtFinger, Color.Black);
+                Invoke_TextBox_Color(txtFingerTip, Color.Black);
             }
         }
 
@@ -715,6 +798,42 @@ namespace ComPortReader
                 e.Handled = true;
                 e.SuppressKeyPress = true;
                 CheckAndInsertData(); // Execute the function to check and insert data
+            }
+        }
+
+        public static void LogMessage(string message)
+        {
+            try
+            {
+                // Get the current date
+                DateTime now = DateTime.Now;
+
+                // Create the directory structure: Logs/YYYY/MM/
+                string year = now.ToString("yyyy");
+                string month = now.ToString("MM");
+                string day = now.ToString("yyyy-MM-dd");
+
+                string monthDirectory = Path.Combine(logDirectory, year, month);
+
+                // Ensure the directory exists
+                if (!Directory.Exists(monthDirectory))
+                {
+                    Directory.CreateDirectory(monthDirectory);
+                }
+
+                // Define the log file name
+                string logFilePath = Path.Combine(monthDirectory, $"{day}.log");
+
+                // Format the log message with a timestamp
+                string logMessage = $"{now:yyyy-MM-dd HH:mm:ss} - {message}";
+
+                // Write the log message to the file, appending if it already exists
+                File.AppendAllText(logFilePath, logMessage + Environment.NewLine);
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions (e.g., log to a fallback location or notify the user)
+                Console.WriteLine($"Error logging message: {ex.Message}");
             }
         }
 

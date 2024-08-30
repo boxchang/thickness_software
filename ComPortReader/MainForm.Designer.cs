@@ -56,6 +56,7 @@
             txtReceivedData.Multiline = true;
             txtReceivedData.Name = "txtReceivedData";
             txtReceivedData.ReadOnly = true;
+            txtReceivedData.ScrollBars = ScrollBars.Vertical;
             txtReceivedData.Size = new Size(1290, 302);
             txtReceivedData.TabIndex = 6;
             // 
