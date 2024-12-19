@@ -590,10 +590,15 @@ namespace ComPortReader
                     else
                     {
                         // Handle the case where the string could not be converted to a float
-                        MessageBox.Show("Invalid data format: Unable to convert to a float.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show($"Invalid data format: Unable to convert '{value}' to a float.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
 
                     CheckAndInsertData();
+                }
+
+                if (data.StartsWith("92"))
+                {
+                    Invoke_message("Testing device can not read any signal, the cable may be broken.");
                 }
 
                 receivedDataBuffer.Clear();

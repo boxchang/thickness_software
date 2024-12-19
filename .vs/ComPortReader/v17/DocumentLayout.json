@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "D:\\02.Git\\thickness_software\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|d:\\02.git\\thickness_software\\comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|d:\\02.git\\thickness_software\\comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|solutionrelative:comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|d:\\02.git\\thickness_software\\comportreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|d:\\02.git\\thickness_software\\comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|solutionrelative:comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|d:\\02.git\\thickness_software\\comportreader\\comportreader.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\comportreader.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|d:\\02.git\\thickness_software\\comportreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|solutionrelative:comportreader\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|D:\\02.Git\\thickness_software\\comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|d:\\02.git\\thickness_software\\comportreader\\thickness software.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|solutionrelative:comportreader\\thickness software.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|d:\\02.git\\thickness_software\\comportreader\\thickness software.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|solutionrelative:comportreader\\thickness software.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|D:\\02.Git\\thickness_software\\comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|d:\\02.git\\thickness_software\\comportreader\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|d:\\02.git\\thickness_software\\comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|solutionrelative:comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|d:\\02.git\\thickness_software\\comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\configform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|d:\\02.git\\thickness_software\\comportreader\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|solutionrelative:comportreader\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|d:\\02.git\\thickness_software\\comportreader\\comportreader.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\comportreader.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|d:\\02.git\\thickness_software\\comportreader\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|solutionrelative:comportreader\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|d:\\02.git\\thickness_software\\comportreader\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|d:\\02.git\\thickness_software\\comportreader\\configform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\ComPortReader.csproj|solutionrelative:comportreader\\configform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|d:\\02.git\\thickness_software\\comportreader\\configform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3B84E11-EE5B-4EA2-9B01-8E019AA7A587}|ComPortReader\\Thickness Software.csproj|solutionrelative:comportreader\\configform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,56 +54,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConfigForm.cs",
-              "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\ConfigForm.cs",
-              "RelativeDocumentMoniker": "ComPortReader\\ConfigForm.cs",
-              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\ConfigForm.cs",
-              "RelativeToolTip": "ComPortReader\\ConfigForm.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAYwDsAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T04:58:13.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ComPortReader.csproj",
-              "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj",
-              "RelativeDocumentMoniker": "ComPortReader\\ComPortReader.csproj",
-              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj",
-              "RelativeToolTip": "ComPortReader\\ComPortReader.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-25T12:57:24.512Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\Program.cs",
-              "RelativeDocumentMoniker": "ComPortReader\\Program.cs",
-              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\Program.cs",
-              "RelativeToolTip": "ComPortReader\\Program.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwC8AAAAWAAAA",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\MainForm.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\MainForm.cs",
+              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\MainForm.cs [Design]",
+              "RelativeToolTip": "ComPortReader\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T09:03:14.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ComPortReader",
-              "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj",
-              "RelativeDocumentMoniker": "ComPortReader\\ComPortReader.csproj",
-              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj",
-              "RelativeToolTip": "ComPortReader\\ComPortReader.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-26T06:44:05.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-02T03:47:51.893Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -109,32 +76,58 @@
               "RelativeDocumentMoniker": "ComPortReader\\MainForm.cs",
               "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\MainForm.cs",
               "RelativeToolTip": "ComPortReader\\MainForm.cs",
-              "ViewState": "AQIAAH8CAAAAAAAAAAAiwO0CAAAxAAAA",
+              "ViewState": "AQIAADgCAAAAAAAAAAAlwE0CAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T08:52:25.447Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\Program.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\Program.cs",
+              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\Program.cs",
+              "RelativeToolTip": "ComPortReader\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAA9wC8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T09:03:14.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Thickness Software",
+              "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\Thickness Software.csproj",
+              "RelativeDocumentMoniker": "ComPortReader\\Thickness Software.csproj",
+              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\Thickness Software.csproj",
+              "RelativeToolTip": "ComPortReader\\Thickness Software.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-26T06:44:05.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ConfigForm.cs [Design]",
               "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\ConfigForm.cs",
               "RelativeDocumentMoniker": "ComPortReader\\ConfigForm.cs",
-              "ToolTip": "C:\\Users\\forko\\source\\repos\\ComPortReader\\ComPortReader\\ConfigForm.cs [Design]",
+              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\ConfigForm.cs [Design]",
+              "RelativeToolTip": "ComPortReader\\ConfigForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T08:58:59.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "ComPortReader\\MainForm.Designer.cs",
               "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\MainForm.Designer.cs",
               "RelativeToolTip": "ComPortReader\\MainForm.Designer.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAApwIoAAAAwAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAApwBYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:54:18.271Z"
+              "WhenOpened": "2024-08-26T08:54:18.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -149,7 +142,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "Thickness Software.csproj",
+              "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\Thickness Software.csproj",
+              "RelativeDocumentMoniker": "ComPortReader\\Thickness Software.csproj",
+              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\Thickness Software.csproj",
+              "RelativeToolTip": "ComPortReader\\Thickness Software.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-25T12:57:24.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConfigForm.cs",
+              "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\ConfigForm.cs",
+              "RelativeDocumentMoniker": "ComPortReader\\ConfigForm.cs",
+              "ToolTip": "D:\\02.Git\\thickness_software\\ComPortReader\\ConfigForm.cs",
+              "RelativeToolTip": "ComPortReader\\ConfigForm.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAYwDsAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T04:58:13.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "App.config",
               "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\App.config",
               "RelativeDocumentMoniker": "ComPortReader\\App.config",
@@ -161,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ConfigForm.Designer.cs",
               "DocumentMoniker": "D:\\02.Git\\thickness_software\\ComPortReader\\ConfigForm.Designer.cs",
               "RelativeDocumentMoniker": "ComPortReader\\ConfigForm.Designer.cs",

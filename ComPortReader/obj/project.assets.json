@@ -277,19 +277,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\forko\\.nuget\\packages\\": {}
+    "C:\\Users\\forko\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj",
-      "projectName": "ComPortReader",
-      "projectPath": "D:\\02.Git\\thickness_software\\ComPortReader\\ComPortReader.csproj",
+      "projectUniqueName": "D:\\02.Git\\thickness_software\\ComPortReader\\Thickness Software.csproj",
+      "projectName": "Thickness Software",
+      "projectPath": "D:\\02.Git\\thickness_software\\ComPortReader\\Thickness Software.csproj",
       "packagesPath": "C:\\Users\\forko\\.nuget\\packages\\",
       "outputPath": "D:\\02.Git\\thickness_software\\ComPortReader\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\forko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

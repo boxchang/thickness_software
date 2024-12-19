@@ -244,7 +244,7 @@
             Controls.Add(txtOriginal);
             Controls.Add(txtReceivedData);
             Name = "MainForm";
-            Text = "IPQC Thickness Software V1.1";
+            Text = "IPQC Thickness Software V1.2";
             Load += MainForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
